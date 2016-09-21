@@ -1,0 +1,43 @@
+﻿html, body {
+        height: 100%;
+        margin: 0px;
+}
+
+body
+{
+	font-family:Arial;
+	margin:0; 
+	padding:0;
+}
+.menu li 
+{
+	position:relative;
+	top:10%;
+	display:inline-block;
+	padding:10px;
+	border-radius:3px;
+	border:2px solid black; 
+    margin:15px;
+}
+.menu li:first-child
+{
+	margin-top:0px;
+	
+}
+.menu{
+	display:block;
+	font-size:2em;
+	text-align:center;
+	background:rgb(220,220,220);
+	height:15%;
+	width:100%;
+	margin:0;
+	padding:0;}
+.menu li:hover
+{
+	color:white;
+	font-weight:bold;
+	font-size:1.2em;
+	cursor:pointer;
+	background-color:green;
+}
